@@ -1,0 +1,23 @@
+{
+    "title": "Hoymiles",
+    "config": {
+        "step": {
+            "init": {
+                "title": "Enter the connection parameters to the Hoymiles S-miles cloud.",
+                "description": "We will add sensors to get data from Hoymiles S-miles cloud.\n\n {error_info} ",
+                "data": {
+                     "username": "Username used to login at S-miles cloud",
+                     "password": "Password used to login at S-miles cloud",
+                     "plant_id": "ID of plant"
+                }
+            },
+           "confirm": {
+                "description": "This sensor uses unofficial API to get data from Hoymiles S-miles cloud. Do you want to continue?\n",
+                "title": "Hoymiles sensors"
+           }
+        },
+        "error": {
+            "server_no_connection": "Cannot connect to Hoymiles S-miles cloud."
+        }
+    }
+}

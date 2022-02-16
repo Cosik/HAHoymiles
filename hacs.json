@@ -1,0 +1,8 @@
+{
+    "name": "Hoymiles",
+    "render_readme": true,
+    "domains": ["sensor"],
+    "zip_release": true,
+    "filename": "hoymiles.zip",
+    "country": "PL"
+  }
